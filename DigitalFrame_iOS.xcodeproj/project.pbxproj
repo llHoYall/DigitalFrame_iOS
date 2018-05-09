@@ -12,8 +12,6 @@
 		15EF0CE620A286E800D3D6FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15EF0CE420A286E800D3D6FD /* Main.storyboard */; };
 		15EF0CE820A286E900D3D6FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15EF0CE720A286E900D3D6FD /* Assets.xcassets */; };
 		15EF0CEB20A286E900D3D6FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15EF0CE920A286E900D3D6FD /* LaunchScreen.storyboard */; };
-		15EF0CF620A286E900D3D6FD /* DigitalFrame_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EF0CF520A286E900D3D6FD /* DigitalFrame_iOSTests.swift */; };
-		15EF0D0120A286E900D3D6FD /* DigitalFrame_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EF0D0020A286E900D3D6FD /* DigitalFrame_iOSUITests.swift */; };
 		15EF0D1E20A28FA700D3D6FD /* img11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15EF0D0F20A28FA500D3D6FD /* img11.jpg */; };
 		15EF0D1F20A28FA700D3D6FD /* img7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15EF0D1020A28FA500D3D6FD /* img7.jpg */; };
 		15EF0D2020A28FA700D3D6FD /* img6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15EF0D1120A28FA500D3D6FD /* img6.jpg */; };
@@ -57,11 +55,7 @@
 		15EF0CEA20A286E900D3D6FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15EF0CEC20A286E900D3D6FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15EF0CF120A286E900D3D6FD /* DigitalFrame_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigitalFrame_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		15EF0CF520A286E900D3D6FD /* DigitalFrame_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalFrame_iOSTests.swift; sourceTree = "<group>"; };
-		15EF0CF720A286E900D3D6FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15EF0CFC20A286E900D3D6FD /* DigitalFrame_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigitalFrame_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		15EF0D0020A286E900D3D6FD /* DigitalFrame_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalFrame_iOSUITests.swift; sourceTree = "<group>"; };
-		15EF0D0220A286E900D3D6FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15EF0D0F20A28FA500D3D6FD /* img11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img11.jpg; sourceTree = "<group>"; };
 		15EF0D1020A28FA500D3D6FD /* img7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img7.jpg; sourceTree = "<group>"; };
 		15EF0D1120A28FA500D3D6FD /* img6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img6.jpg; sourceTree = "<group>"; };
@@ -108,8 +102,6 @@
 			isa = PBXGroup;
 			children = (
 				15EF0CDF20A286E700D3D6FD /* DigitalFrame_iOS */,
-				15EF0CF420A286E900D3D6FD /* DigitalFrame_iOSTests */,
-				15EF0CFF20A286E900D3D6FD /* DigitalFrame_iOSUITests */,
 				15EF0CDE20A286E700D3D6FD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -136,24 +128,6 @@
 				15EF0CEC20A286E900D3D6FD /* Info.plist */,
 			);
 			path = DigitalFrame_iOS;
-			sourceTree = "<group>";
-		};
-		15EF0CF420A286E900D3D6FD /* DigitalFrame_iOSTests */ = {
-			isa = PBXGroup;
-			children = (
-				15EF0CF520A286E900D3D6FD /* DigitalFrame_iOSTests.swift */,
-				15EF0CF720A286E900D3D6FD /* Info.plist */,
-			);
-			path = DigitalFrame_iOSTests;
-			sourceTree = "<group>";
-		};
-		15EF0CFF20A286E900D3D6FD /* DigitalFrame_iOSUITests */ = {
-			isa = PBXGroup;
-			children = (
-				15EF0D0020A286E900D3D6FD /* DigitalFrame_iOSUITests.swift */,
-				15EF0D0220A286E900D3D6FD /* Info.plist */,
-			);
-			path = DigitalFrame_iOSUITests;
 			sourceTree = "<group>";
 		};
 		15EF0D0E20A28BF100D3D6FD /* Resources */ = {
@@ -333,7 +307,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15EF0CF620A286E900D3D6FD /* DigitalFrame_iOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,7 +314,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15EF0D0120A286E900D3D6FD /* DigitalFrame_iOSUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
